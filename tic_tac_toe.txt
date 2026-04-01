@@ -1,0 +1,30 @@
+import pygame  
+pygame.init()
+display = pygame.display.set_mode((0, 0), pygame.FULLSCREEN , pygame.SCALED)
+on = True
+def create_XO(board, graphical , move):
+   CP = pygame.mouse.get_pos()
+   CPX = (CP[0]-65)/835*2
+   CPY = CP[1]/835*2
+   if board[round(CPY)][round(CPX)] != '0' and  board[round(CPY)][round(CPX)] != 'X':
+      board[round(CPY)][round(CPX)] = move
+      if move == 'O':
+         move = 'X'
+      else:
+         move = 'O'
+
+def displayB(board , x_img , O_img ):
+   global displayB 
+   for i in range(3):
+      for j in range(3):
+         if board[i][j] == 'X':
+            board[i][j][0] = x_img
+            board[i][j][1] = x_img.get_rect(center=(j*300+150,i*300+150))
+         elif board[i][j] == 'O':
+            board[i][j][0] = O_img
+            board[i][j][1] = O_img.get_rect(center=(j*300+150,i*300+150))
+
+while on :
+    for event in pygame  .event.get() :
+        if event.type == pygame.QUIT:
+          on = False
