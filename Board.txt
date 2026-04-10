@@ -1,5 +1,6 @@
 import pygame   
-class Board():
+class Board():# this is so cp i cant belive how cp is this omg 
+
     def __init__(self):
         self.taken1 = False
         self.taken2 = False
