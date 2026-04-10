@@ -1,0 +1,134 @@
+import pygame
+from Board import *
+pygame.init()
+display = pygame.display.set_mode((0, 0), pygame.FULLSCREEN , pygame.SCALED)
+class Game():
+   def __init__(self):
+      self.roundX_turn = True
+      self.X_clicked = False
+      self.roundO_turn = False
+      self.O_clicked = False
+#=============Loading the board NIGGERS==========
+      self.board = Board()
+      self.type = Board()
+      for i in range(1, 10):
+         space = Board()           
+         getattr(space, f'space{i}')()  
+         setattr(self, f'space{i}', space)
+      self.on = True
+      self.spaces = [self.space1, self.space2, self.space3, self.space4, 
+          self.space5, self.space6, self.space7, self.space8, self.space9]
+   def run(self):
+      while self.on :
+         display.blit(self.board.image, self.board.rect)
+         for space in self.spaces:
+             display.blit(space.image, space.rect)
+         if self.X_clicked:
+            self.roundO_turn = True
+            self.roundX_turn = False
+            self.X_clicked = False
+         if self.O_clicked:
+            self.roundO_turn = False
+            self.roundX_turn = True
+            self.O_clicked = False
+ #==========================WINNING===================================       
+         if self.type.X1 and self.type.X2 and self.type.X3:
+            self.on = False
+         if self.type.X4 and self.type.X5 and self.type.X6:
+            self.on = False
+         if self.type.X7 and self.type.X8 and self.type.X9:
+            self.on = False
+#=============event loop=====================
+         for event in pygame.event.get() :
+            if event.type == pygame.MOUSEBUTTONUP and self.roundX_turn:
+               if self.space1.rect.collidepoint(event.pos) and not self.space1.taken1  :
+                  self.space1.image = pygame.image.load("X_tile/1-1-X.png")
+                  self.X_clicked = True
+                  self.space1.taken1 = True
+                  self.type.X1 = True
+               if self.space2.rect.collidepoint(event.pos) and not self.space2.taken2:
+                  self.space2.image = pygame.image.load("X_tile/1-2-X.png")
+                  self.X_clicked = True
+                  self.space2.taken2 = True
+                  self.type.X2 = True
+               if self.space3.rect.collidepoint(event.pos) and not self.space3.taken3:
+                  self.space3.image = pygame.image.load("X_tile/1-3-X.png")
+                  self.X_clicked = True
+                  self.space3.taken3 = True
+                  self.type.X3 = True
+               if self.space4.rect.collidepoint(event.pos) and not self.space4.taken4:
+                  self.space4.image = pygame.image.load("X_tile/2-1-X.png")
+                  self.X_clicked = True
+                  self.space4.taken4 = True
+                  self.type.X4 = True
+               if self.space5.rect.collidepoint(event.pos) and not self.space5.taken5:
+                  self.space5.image = pygame.image.load("X_tile/2-2-X.png")
+                  self.X_clicked = True
+                  self.space5.taken5 = True
+                  self.type.X5 = True
+               if self.space6.rect.collidepoint(event.pos) and not self.space6.taken6:
+                  self.space6.image = pygame.image.load("X_tile/2-3-X.png")
+                  self.X_clicked = True
+                  self.space6.taken6 = True
+                  self.type.X6 = True
+               if self.space7.rect.collidepoint(event.pos) and not self.space7.taken7:
+                  self.space7.image = pygame.image.load("X_tile/3-1-X.png")
+                  self.X_clicked = True
+                  self.space7.taken7 = True
+                  self.type.X7 = True
+               if self.space8.rect.collidepoint(event.pos) and not self.space8.taken8:
+                  self.space8.image = pygame.image.load("X_tile/3-2-X.png")
+                  self.X_clicked = True
+                  self.space8.taken8 = True
+                  self.type.X8 = True
+               if self.space9.rect.collidepoint(event.pos) and not self.space9.taken9:
+                  self.space9.image = pygame.image.load("X_tile/3-3-X.png")
+                  self.X_clicked = True
+                  self.space9.taken9 = True
+                  self.type.X9 = True
+            if event.type == pygame.MOUSEBUTTONUP and self.roundO_turn:
+               if self.space1.rect.collidepoint(event.pos) and not self.space1.taken1:
+                  self.space1.image = pygame.image.load("O_tile/1-1-O.png")
+                  self.O_clicked = True
+                  self.space1.taken1 = True
+               if self.space2.rect.collidepoint(event.pos) and not self.space2.taken2:
+                  self.space2.image = pygame.image.load("O_tile/1-2-O.png")
+                  self.O_clicked = True
+                  self.space2.taken2 = True
+               if self.space3.rect.collidepoint(event.pos) and not self.space3.taken3:
+                  self.space3.image = pygame.image.load("O_tile/1-3-O.png")
+                  self.O_clicked = True
+                  self.space3.taken3 = True
+               if self.space4.rect.collidepoint(event.pos) and not self.space4.taken4:
+                  self.space4.image = pygame.image.load("O_tile/2-1-O.png")
+                  self.O_clicked = True
+                  self.space4.taken4 = True
+               if self.space5.rect.collidepoint(event.pos) and not self.space5.taken5:
+                  self.space5.image = pygame.image.load("O_tile/2-2-O.png")
+                  self.O_clicked = True
+                  self.space5.taken5 = True
+               if self.space6.rect.collidepoint(event.pos) and not self.space6.taken6:
+                  self.space6.image = pygame.image.load("O_tile/2-3-O.png")
+                  self.O_clicked = True
+                  self.space6.taken6 = True
+               if self.space7.rect.collidepoint(event.pos) and not self.space7.taken7:
+                  self.space7.image = pygame.image.load("O_tile/3-1-O.png")
+                  self.O_clicked = True
+                  self.space7.taken7 = True
+               if self.space8.rect.collidepoint(event.pos) and not self.space8.taken8:
+                  self.space8.image = pygame.image.load("O_tile/3-2-O.png")
+                  self.O_clicked = True
+                  self.space8.taken8 = True
+               if self.space9.rect.collidepoint(event.pos) and not self.space9.taken9:
+                  self.space9.image = pygame.image.load("O_tile/3-3-O.png")
+                  self.O_clicked = True
+                  self.space9.taken9 = True
+
+            if event.type == pygame.QUIT:
+              self.on = False
+         pygame.display.update()
+
+
+if __name__ == '__main__':
+    game = Game()
+    game.run()
