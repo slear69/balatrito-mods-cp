@@ -1,0 +1,1573 @@
+00:00:00.278 |I| Configuration LogValueChange: ResScale set to: 1
+00:00:00.282 |I| Configuration LogValueChange: ResScaleCustom set to: 1
+00:00:00.282 |I| Configuration LogValueChange: MaxAnisotropy set to: -1
+00:00:00.283 |I| Configuration LogValueChange: AspectRatio set to: Fixed16x9
+00:00:00.284 |I| Configuration LogValueChange: PreferredGpu set to: 0x10DE_0x25AC
+00:00:00.285 |I| Configuration LogValueChange: ScalingFilterLevel set to: 80
+00:00:00.285 |I| Configuration LogValueChange: CustomVSyncInterval set to: 120
+00:00:00.285 |I| Configuration LogValueChange: EnableShaderCache set to: True
+00:00:00.285 |I| Configuration LogValueChange: EnableMacroHLE set to: True
+00:00:00.286 |I| Configuration LogValueChange: Language set to: AmericanEnglish
+00:00:00.287 |I| Configuration LogValueChange: Region set to: Europe
+00:00:00.287 |I| Configuration LogValueChange: TimeZone set to: UTC
+00:00:00.288 |I| Configuration LogValueChange: SystemTimeOffset set to: -53
+00:00:00.288 |I| Configuration LogValueChange: EnableDockedMode set to: True
+00:00:00.288 |I| Configuration LogValueChange: EnablePtc set to: True
+00:00:00.289 |I| Configuration LogValueChange: TickScalar set to: 50
+00:00:00.289 |I| Configuration LogValueChange: EnableFsIntegrityChecks set to: True
+00:00:00.291 |I| Configuration LogValueChange: AudioBackend set to: SDL3
+00:00:00.291 |I| Configuration LogValueChange: AudioVolume set to: 1
+00:00:00.292 |I| Configuration LogValueChange: MemoryManagerMode set to: HostMappedUnsafe
+00:00:00.293 |I| Configuration LogValueChange: UseHypervisor set to: True
+00:00:00.296 |I| Configuration LogValueChange: LdnPassphrase set to: 
+00:00:00.296 |I| Configuration LogValueChange: LdnServer set to: 
+00:00:00.297 |I| Configuration LogValueChange: GdbStubPort set to: 55555
+00:00:00.307 |N| Application PrintSystemInfo:    ___                 __    _              
+00:00:00.307 |N| Application PrintSystemInfo:   / _ \  __ __ __ __  / /   (_)  ___   ___ _
+00:00:00.307 |N| Application PrintSystemInfo:  / , _/ / // // // / / _ \ / /  / _ \ / _ `/
+00:00:00.307 |N| Application PrintSystemInfo: /_/|_|  \_, / \_,_/ /_.__//_/  /_//_/ \_, / 
+00:00:00.307 |N| Application PrintSystemInfo:        /___/                         /___/  
+00:00:00.307 |N| Application PrintSystemInfo: Ryujinx Canary Version: 1.3.272
+00:00:00.307 |N| Application PrintSystemInfo: .NET Runtime: .NET 10.0.6
+00:00:00.312 |N| Application PrintSystemInfo: Operating System: Microsoft Windows 10.0.26200 (X64)
+00:00:00.312 |N| Application PrintSystemInfo: CPU: 13th Gen Intel(R) Core(TM) i5-13420H ; 12 logical
+00:00:00.314 |N| Application PrintSystemInfo: RAM: Total 15.7 GiB ; Available 7.3 GiB
+00:00:00.319 |N| Application PrintSystemInfo: Logs Enabled: Info, Warning, Error, Guest, Stub
+00:00:00.319 |N| Application PrintSystemInfo: Launch Mode: UserProfile
+00:00:02.524 |I| Application QueryLatestAsync: Checking for updates from: https://update.ryujinx.app/latest/query?os=win&arch=amd64&rc=canary
+00:00:02.964 |I| Application QueryLatestAsync: Received non-success status code (BadGateway) for update query!
+00:00:02.972 |E| Application CheckVersionAsync: NullReferenceException thrown when requesting updates: Object reference not set to an instance of an object.
+00:00:49.168 |I| Configuration LogValueChange: SystemTimeOffset set to: -96
+00:00:00.023 |I| Gpu : Backend Threading (Auto): True
+00:00:00.319 |N| Application LoadGuestApplication: Using Firmware Version: 22.1.0
+00:00:00.319 |N| Application LoadGuestApplication: Loading content archive from 'C:\Users\[redacted]\Desktop\emulated games\Tomodachi Life Living the Dream-001.nsp'.
+00:00:00.319 |I| Application LoadGuestApplication: Loading as NSP.
+00:00:00.341 |I| ModLoader QueryContentsDir: Searching mods for Application 010051F0207B2000 in "C:\Users\[redacted]\AppData\Roaming\Ryujinx\mods\contents"
+00:00:00.342 |I| ModLoader QueryContentsDir: Searching mods for Application 010051F0207B2000 in "C:\Users\[redacted]\AppData\Roaming\Ryujinx\sdcard\atmosphere\contents"
+00:00:00.344 |I| Loader Load: Loading rtld...
+00:00:00.350 |I| Loader PrintRoSectionInfo: rtld:
+    Module: 
+00:00:00.350 |I| Loader Load: Loading main...
+00:00:00.567 |I| Loader PrintRoSectionInfo: main:
+    Module: D:\home\Project\Colony\App\Rom\NX64\Product_CSPGO_Optimize\code\Colony.nss
+    SDK Libraries: SDK MW+Nintendo+NintendoWare_Vfx2-20_5_3-Release
+                   SDK MW+Nintendo+NintendoWare_Font-20_5_3-Release
+                   SDK MW+Nintendo+NintendoWare_Ui2d-20_5_3-Release
+                   SDK MW+Nintendo+NintendoWare_G3d2-20_5_3-Release
+                   SDK MW+Nintendo+NintendoWare_G3d2-20_5_3-Release
+                   SDK MW+Microsoft+Havok_Physics-2023_2
+                   SDK MW+Microsoft+Havok_Cloth-2023_2
+                   SDK MW+Microsoft+Havok_Animation-2023_2
+                   SDK MW+Nintendo+Sead-1_0_0_0
+00:00:00.568 |I| Loader Load: Loading sdk...
+00:00:00.604 |I| Loader PrintRoSectionInfo: sdk:
+    Module: 
+    FS SDK Version: 20.5.3
+    SDK Libraries: SDK MW+Nintendo+NintendoSDK_libz-20_5_3-Release
+                   SDK MW+Nintendo+NintendoSdk_nnSdk-20_5_3-Release
+                   SDK MW+Nintendo+NintendoSdk_BuildTarget-64Bit
+                   SDK MW+Nintendo+NintendoSDK_NVN-20_5_3-Release
+00:00:00.822 |I| Ptc Initialize: Initializing Profiled Persistent Translation Cache (enabled: True).
+00:00:00.822 |I| Ptc Initialize: PPTC (v7010) Profile: 1.0.0-default
+00:00:01.319 |I| Ptc Load: Loaded Translation Cache (size: 69234396 bytes, translated functions: 39096).
+00:00:01.331 |I| Ptc Load: Loaded Profiling Info (size: 183031 bytes, profiled functions: 43095).
+00:00:01.335 |I| Application ParseCapability: Application requested cores with index range 0 to 2
+00:00:01.336 |I| Loader LoadNsos: Loading image 0 at 0x0000000008500000...
+00:00:01.337 |I| Loader LoadNsos: Loading image 1 at 0x0000000008506000...
+00:00:01.367 |I| Loader LoadNsos: Loading image 2 at 0x000000000d79f000...
+00:00:01.372 |I| ModLoader LoadCheats: Build ids found for application 010051F0207B2000:
+    1766344B3F61911645FCD17B22CB0F04139FE5FF000000000000000000000000
+    56BF85BD535413464CB75BB6C2683B6711E0BC0B000000000000000000000000
+    651781821E2C2E0B2BDFE905E8676F564190586A000000000000000000000000
+00:00:01.375 |I| Application EnsureSaveData: Ensuring required savedata exists.
+00:00:01.415 |I| Loader Start: Application Loaded: Tomodachi Life: Living the Dream v1.0.0 [010051f0207b2000] [64-bit]
+00:00:01.436 |I| GUI.WindowThread Hid Configure: Configured Controller ProController to Player1
+00:00:01.447 |I| GUI.WindowThread Hid SetupNpad: Connected Controller ProController to Player1
+00:00:01.761 |N| GUI.RenderThread Gpu PrintGpuInformation: NVIDIA GeForce RTX 3050 6GB Laptop GPU (Vulkan v1.3.260, Driver v546.18.0.0)
+00:00:01.761 |N| GUI.RenderThread Gpu PrintGpuInformation: GPU Memory: 6017 MiB
+00:00:01.768 |I| GPU.MainThread Gpu LoadShaders: Loading 213 shaders from the cache...
+00:00:02.205 |I| GPU.MainThread Gpu LoadShaders: Shader cache loaded.
+00:00:03.094 |I| HLE.GuestThread.28 Ptc LoadTranslations: 38399 translated functions loaded
+00:00:03.107 |I| HLE.GuestThread.28 Ptc MakeAndSaveTranslations: 0 of 4696 functions translated | Thread count: 11
+00:00:08.167 |I| HLE.GuestThread.28 Ptc MakeAndSaveTranslations: 4696 of 4696 functions translated in 4.8821536 seconds | 0 functions blacklisted | Thread count: 11
+00:00:08.231 |S| {Common} ServiceAm GetAppletResourceUserId: Stubbed. {appletResourceUserId: 1}
+00:00:08.245 |S| {Common} ServiceAm AcquireForegroundRights: Stubbed. 
+00:00:08.246 |S| {Common} ServiceAm SetFocusHandlingMode: Stubbed. {unknownFlag1: False ; unknownFlag2: False ; unknownFlag3: True}
+00:00:08.246 |S| {Common} ServiceAm SetOutOfFocusSuspendingEnabled: Stubbed. {outOfFocusSuspendingEnabled: False}
+00:00:08.254 |S| {Common} ServicePctl Initialize: Stubbed. 
+00:00:09.051 |I| Ptc.DiskWriter Ptc Save: Saved Translation Cache (size: 79991133 bytes, translated functions: 43792).
+00:00:09.532 |S| {Nv} ServiceNv FinishInitialize: Stubbed. 
+00:00:09.536 |I| {Common} SurfaceFlinger CreateLayerFromId: Creating layer 1
+00:00:09.537 |I| {Common} SurfaceFlinger CreateLayerFromId: Creating layer 2
+00:00:09.550 |S| {Nv} ServiceNv VsmsMapping: Stubbed. 
+00:00:09.556 |S| {Nv} ServiceNv InitializeEx: Stubbed. 
+00:00:09.570 |S| {Nv} ServiceNv GetActiveSlotMask: Stubbed. 
+00:00:09.611 |S| {Nv} ServiceNv SetNvMapFd: Stubbed. 
+00:00:09.612 |S| {Nv} ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:09.612 |S| {Nv} ServiceNv AllocObjCtx: Stubbed. 
+00:00:09.613 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:00:09.613 |S| {Nv} ServiceNv SetUserData: Stubbed. 
+00:00:09.613 |S| {Nv} ServiceNv SetTimeout: Stubbed. 
+00:00:09.613 |S| {Nv} ServiceNv SetTimeslice: Stubbed. 
+00:00:09.615 |S| {Nv} ServiceNv ZcullBind: Stubbed. 
+00:00:09.636 |S| {Common} ServiceAcc InitializeApplicationInfo: Stubbed. {TitleId: 72147685816868864}
+00:00:09.638 |S| {Common} ServiceAcc IsUserAccountSwitchLocked: Stubbed. 
+00:00:09.638 |S| {Common} ServiceNs CheckAddOnContentMountStatus: Stubbed. 
+00:00:09.640 |S| {Common} ServiceAm SetRestartMessageEnabled: Stubbed. {restartMessageEnabled: True}
+00:00:09.640 |S| {Common} ServiceAm LockExit: Stubbed. 
+00:00:09.642 |S| {Common} ServiceAm SetOperationModeChangedNotification: Stubbed. {operationModeChangedNotification: True}
+00:00:09.642 |S| {Common} ServiceAm SetPerformanceModeChangedNotification: Stubbed. {performanceModeChangedNotification: True}
+00:00:09.929 |S| {Common} ServiceAm GetSaveDataSize: Stubbed. {saveDataType: Account ; userId: 00000000000000010000000000000000}
+00:00:09.929 |S| {Common} ServiceAm GetSaveDataSizeMax: Stubbed. 
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player2}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player3}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player4}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player5}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player6}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player7}
+00:00:09.933 |S| {Hid} ServiceHid DisconnectNpad: Stubbed. {appletResourceUserId: 4294967296 ; npadIdType: Player8}
+00:00:09.934 |S| {Hid} ServiceHid ActiveNpadImpl: Stubbed. {appletResourceUserId: 1 ; revision: 5}
+00:00:09.937 |S| {Hid} ServiceHid SetSupportedNpadIdType: Stubbed. 9 Players: Player1,Player2,Player3,Player4,Player5,Player6,Player7,Player8,Handheld
+00:00:09.938 |S| {Hid} ServiceHid SetSupportedNpadStyleSet: Stubbed. {pid: 109 ; appletResourceUserId: 1 ; type: ProController, Handheld, JoyconPair, JoyconLeft, JoyconRight}
+00:00:09.938 |S| {Hid} ServiceHid SetTouchScreenResolution: Stubbed. {width: 1280 ; height: 720 ; appletResourceUserId: 1}
+00:00:09.939 |S| {Hid} ServiceHid ActivateTouchScreen: Stubbed. {appletResourceUserId: 1}
+00:00:09.939 |S| {Hid} ServiceHid SetGestureOutputRanges: Stubbed. {pid: 109 ; unknown0: 1280}
+00:00:09.939 |S| {Hid} ServiceHid ActivateGesture: Stubbed. {appletResourceUserId: 1 ; unknown0: 1}
+00:00:09.940 |S| {Nv} ServiceNv ZbcSetTable: Stubbed. 
+00:00:09.940 |S| {Nv} ServiceNv GetActiveSlotMask: Stubbed. 
+00:00:09.957 |S| {Nv} ServiceNv SetNvMapFd: Stubbed. 
+00:00:09.957 |S| {Nv} ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:09.957 |S| {Nv} ServiceNv AllocObjCtx: Stubbed. 
+00:00:09.958 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:00:09.958 |S| {Nv} ServiceNv SetUserData: Stubbed. 
+00:00:09.958 |S| {Nv} ServiceNv SetTimeout: Stubbed. 
+00:00:09.958 |S| {Nv} ServiceNv SetTimeslice: Stubbed. 
+00:00:09.959 |S| {Nv} ServiceNv ZcullBind: Stubbed. 
+00:00:09.965 |S| {Nv} ServiceNv SetNvMapFd: Stubbed. 
+00:00:09.965 |S| {Nv} ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:09.965 |S| {Nv} ServiceNv AllocObjCtx: Stubbed. 
+00:00:09.965 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:00:09.966 |S| {Nv} ServiceNv SetUserData: Stubbed. 
+00:00:09.966 |S| {Nv} ServiceNv SetTimeout: Stubbed. 
+00:00:09.966 |S| {Nv} ServiceNv SetTimeslice: Stubbed. 
+00:00:09.967 |S| {Nv} ServiceNv ZcullBind: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv SetNvMapFd: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv AllocGpfifoEx2: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv AllocObjCtx: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv SetUserData: Stubbed. 
+00:00:09.984 |S| {Nv} ServiceNv SetTimeout: Stubbed. 
+00:00:09.985 |S| {Nv} ServiceNv SetTimeslice: Stubbed. 
+00:00:09.985 |S| {Nv} ServiceNv ZcullBind: Stubbed. 
+00:00:10.336 |I| HLE.OsThread.11 AudioRenderer AcquireSessionId: Registered new renderer (0)
+00:00:10.340 |I| HLE.OsThread.11 AudioRenderer Initialize: Initializing with REV15
+00:00:10.365 |I| AudioProcessor.Worker AudioRenderer Work: Starting audio processor
+00:00:10.367 |I| AudioRendererManager.Worker AudioRenderer SendCommands: Starting audio renderer
+00:00:10.370 |I| HLE.OsThread.11 AudioRenderer Start: Starting renderer id 0
+00:00:10.479 |I| AudioProcessor.Worker Audio EnsureAudioStreamSetup: New audio stream setup with a target sample count of 240
+00:00:11.404 |S| {Common} ServiceAm SetOperationModeChangedNotification: Stubbed. {operationModeChangedNotification: True}
+00:00:11.404 |S| {Common} ServiceAm SetPerformanceModeChangedNotification: Stubbed. {performanceModeChangedNotification: True}
+00:00:11.420 |S| {Hid} ServiceHid StartSixAxisSensor: Stubbed. {appletResourceUserId: 1 ; sixAxisSensorHandle: 131075}
+00:00:11.516 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_region 
+ Report: {
+    "Region": 1,
+    "Language": 1,
+    "StandardTimeName": "UTC",
+    "UtcOffsetSeconds": 0,
+    "system_report_tag": 2759414308
+}
+
+00:00:11.517 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_time 
+ Report: {
+    "ActiveTime": 0,
+    "UpdatedTime": 0,
+    "system_report_tag": 2759414308
+}
+
+00:00:11.518 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_playstyle 
+ Report: {
+    "system_report_tag": 2759414308
+}
+
+00:00:11.520 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_network_status 
+ Report: {
+    "NetworkInterface": {
+        "TypeCode": 64,
+        "Value": "0x00000000000000000000000000000000"
+    },
+    "LinkLevel": {
+        "TypeCode": 65,
+        "Value": "0x00"
+    },
+    "FrequencyBand": {
+        "TypeCode": 66,
+        "Value": "0x00000000000000000000"
+    },
+    "system_report_tag": 2759414308
+}
+
+00:00:11.520 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_active_beacon 
+ Report: {
+    "IntervalTime": 0,
+    "UpdatedTime": 0,
+    "system_report_tag": 0
+}
+
+00:00:22.534 |W| {Nv} ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:00:23.534 |E| {Nv} Gpu WaitOnSyncpoint: Wait on syncpoint 1 for threshold 726 took more than 1000ms, resuming execution...
+00:00:38.190 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 184979 bytes, profiled functions: 43544).
+00:01:08.192 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 186221 bytes, profiled functions: 43774).
+00:01:09.712 |S| {Common} ServiceAm GetLibraryAppletLaunchableEvent: Stubbed. 
+00:01:09.721 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:01:09.723 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:01:09.732 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:01:09.751 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:01:09.752 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:01:09.775 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:09.802 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:09.820 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:09.832 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:13.605 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_active_beacon 
+ Report: {
+    "IntervalTime": 60,
+    "UpdatedTime": 60,
+    "system_report_tag": 0
+}
+
+00:01:16.442 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:01:16.445 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:01:16.451 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:01:16.459 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:01:16.460 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:01:16.475 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 190664 bytes, profiled functions: 44817).
+00:01:45.819 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:01:45.819 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:01:45.820 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:01:45.827 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:01:45.828 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:01:45.846 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:01:54.053 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:01:54.054 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:01:54.055 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:01:54.063 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:01:54.065 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:01:54.085 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:02:07.688 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:02:07.689 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:02:07.696 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:02:07.708 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:02:07.711 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:02:07.733 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:02:07.749 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:02:07.778 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:02:08.174 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 190972 bytes, profiled functions: 44858).
+00:02:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 195763 bytes, profiled functions: 45907).
+00:03:08.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 197222 bytes, profiled functions: 46257).
+00:03:38.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 197223 bytes, profiled functions: 46259).
+00:04:08.181 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 197269 bytes, profiled functions: 46259).
+00:04:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 204725 bytes, profiled functions: 47915).
+00:05:08.176 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 204907 bytes, profiled functions: 47949).
+00:05:38.181 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 204909 bytes, profiled functions: 47949).
+00:06:08.186 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 204918 bytes, profiled functions: 47950).
+00:06:13.957 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_active_beacon 
+ Report: {
+    "IntervalTime": 300,
+    "UpdatedTime": 360,
+    "system_report_tag": 0
+}
+
+00:06:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 205692 bytes, profiled functions: 48122).
+00:07:08.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 205889 bytes, profiled functions: 48141).
+00:07:38.207 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 205940 bytes, profiled functions: 48149).
+00:08:08.179 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206026 bytes, profiled functions: 48162).
+00:08:38.173 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206610 bytes, profiled functions: 48305).
+00:09:08.174 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206703 bytes, profiled functions: 48317).
+00:09:38.184 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206789 bytes, profiled functions: 48328).
+00:10:08.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206854 bytes, profiled functions: 48340).
+00:10:38.185 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 206904 bytes, profiled functions: 48340).
+00:11:08.173 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207100 bytes, profiled functions: 48371).
+00:11:38.179 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207173 bytes, profiled functions: 48373).
+00:12:08.179 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207254 bytes, profiled functions: 48375).
+00:12:38.176 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207246 bytes, profiled functions: 48375).
+00:13:08.181 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207258 bytes, profiled functions: 48377).
+00:13:14.591 |W| CPU.BackgroundTranslatorThread.0 Cpu Allocate: JIT Cache Region 0 exhausted, creating new Cache Region 1 (512 MB Total Allocation).
+00:13:38.180 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207272 bytes, profiled functions: 48379).
+00:14:08.181 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 207294 bytes, profiled functions: 48379).
+00:14:38.174 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208290 bytes, profiled functions: 48604).
+00:15:08.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208344 bytes, profiled functions: 48620).
+00:15:38.187 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208350 bytes, profiled functions: 48620).
+00:16:08.183 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208344 bytes, profiled functions: 48620).
+00:16:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208348 bytes, profiled functions: 48620).
+00:17:08.174 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208335 bytes, profiled functions: 48620).
+00:17:38.180 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208314 bytes, profiled functions: 48620).
+00:18:08.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208303 bytes, profiled functions: 48620).
+00:18:38.188 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208296 bytes, profiled functions: 48620).
+00:19:08.173 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208320 bytes, profiled functions: 48621).
+00:19:38.186 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208336 bytes, profiled functions: 48622).
+00:20:08.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208374 bytes, profiled functions: 48632).
+00:20:38.189 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208375 bytes, profiled functions: 48632).
+00:21:08.187 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208376 bytes, profiled functions: 48632).
+00:21:14.319 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: erepo_active_beacon 
+ Report: {
+    "IntervalTime": 900,
+    "UpdatedTime": 1260,
+    "system_report_tag": 0
+}
+
+00:21:38.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208498 bytes, profiled functions: 48660).
+00:22:08.190 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208532 bytes, profiled functions: 48667).
+00:22:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208688 bytes, profiled functions: 48706).
+00:23:08.196 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208688 bytes, profiled functions: 48709).
+00:23:38.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208734 bytes, profiled functions: 48719).
+00:24:08.183 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 208720 bytes, profiled functions: 48719).
+00:25:35.209 |S| {Nv} ServiceNv SetNvMapFd: Stubbed. 
+00:25:35.212 |S| {Nv} ServiceNv AllocGpfifoEx2: Stubbed. 
+00:25:35.212 |S| {Nv} ServiceNv AllocObjCtx: Stubbed. 
+00:25:35.213 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:25:35.213 |S| {Nv} ServiceNv SetUserData: Stubbed. 
+00:25:35.213 |S| {Nv} ServiceNv SetTimeout: Stubbed. 
+00:25:35.213 |S| {Nv} ServiceNv SetTimeslice: Stubbed. 
+00:25:36.156 |W| {Nv} ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:25:37.157 |E| {Nv} Gpu WaitOnSyncpoint: Wait on syncpoint 5 for threshold 4 took more than 1000ms, resuming execution...
+00:25:37.362 |W| {Nv} ServiceNv Wait: GPU processing thread is too slow, waiting on CPU...
+00:25:38.176 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 215433 bytes, profiled functions: 50371).
+00:26:08.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 219060 bytes, profiled functions: 51097).
+00:26:38.178 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 219748 bytes, profiled functions: 51243).
+00:27:08.189 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220152 bytes, profiled functions: 51336).
+00:27:38.190 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220188 bytes, profiled functions: 51336).
+00:28:08.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220236 bytes, profiled functions: 51344).
+00:28:38.181 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220379 bytes, profiled functions: 51371).
+00:29:08.187 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220383 bytes, profiled functions: 51373).
+00:29:38.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220380 bytes, profiled functions: 51373).
+00:30:08.185 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220381 bytes, profiled functions: 51373).
+00:30:38.180 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220379 bytes, profiled functions: 51373).
+00:31:08.178 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220400 bytes, profiled functions: 51377).
+00:31:38.186 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220413 bytes, profiled functions: 51377).
+00:32:08.174 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220414 bytes, profiled functions: 51377).
+00:32:38.192 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220417 bytes, profiled functions: 51378).
+00:33:08.183 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220423 bytes, profiled functions: 51379).
+00:33:38.195 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220436 bytes, profiled functions: 51382).
+00:34:08.176 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220442 bytes, profiled functions: 51382).
+00:35:08.184 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220446 bytes, profiled functions: 51382).
+00:35:38.185 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220464 bytes, profiled functions: 51382).
+00:36:08.189 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220464 bytes, profiled functions: 51382).
+00:36:38.180 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220466 bytes, profiled functions: 51382).
+00:37:08.190 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220466 bytes, profiled functions: 51382).
+00:37:38.183 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220473 bytes, profiled functions: 51382).
+00:38:38.184 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220482 bytes, profiled functions: 51384).
+00:39:08.184 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220488 bytes, profiled functions: 51384).
+00:39:38.183 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220935 bytes, profiled functions: 51481).
+00:40:08.191 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 220942 bytes, profiled functions: 51483).
+00:40:29.570 |S| {Nv} ServiceNv SetErrorNotifier: Stubbed. 
+00:40:38.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 222438 bytes, profiled functions: 51822).
+00:40:59.270 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:40:59.271 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:40:59.273 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:40:59.281 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:40:59.285 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:40:59.299 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:40:59.319 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:40:59.352 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:08.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 223177 bytes, profiled functions: 51981).
+00:41:17.226 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:41:17.227 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:41:17.231 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:41:17.237 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:41:17.238 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:41:17.255 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:17.286 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:17.319 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:26.661 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:41:26.661 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:41:26.665 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:41:26.676 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:41:26.678 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:41:26.694 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:33.394 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:41:33.395 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:41:33.408 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:41:33.413 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:41:33.415 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:41:33.426 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:41:38.182 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 223819 bytes, profiled functions: 52092).
+00:42:08.176 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 224208 bytes, profiled functions: 52183).
+00:42:38.175 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 224235 bytes, profiled functions: 52190).
+00:43:08.178 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 225158 bytes, profiled functions: 52403).
+00:43:38.179 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 225478 bytes, profiled functions: 52467).
+00:44:08.177 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 225572 bytes, profiled functions: 52491).
+00:44:30.444 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_miieditor_create 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 0,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A57"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A17"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "HowToCreate": 0,
+    "IsSuspendData": False,
+    "IsReEdit": False,
+    "PlayTime": {
+        "TypeCode": 0,
+        "Value": "0x00000000000009D8"
+    },
+    "InputPlayTime": {
+        "TypeCode": 0,
+        "Value": "0x0000000000000998"
+    },
+    "NoInputPlayTime": {
+        "TypeCode": 0,
+        "Value": "0x0000000000000040"
+    },
+    "HasFacePaint": True,
+    "IsFacePaintFront": False,
+    "MiiCreateIdHash": 2302177617,
+    "MiiPartsFaceline": "Faceline12",
+    "MiiPartsEar": "Ear00",
+    "MiiPartsEye": "Eye001",
+    "MiiPartsEyebrow": "Eyebrow27",
+    "MiiPartsHighlight": "Highlight06",
+    "MiiPartsEyelashUpper": "EyelashUpper02",
+    "MiiPartsEyelashLower": "EyelashLower00",
+    "MiiPartsEyelidUpper": "EyelidUpper01",
+    "MiiPartsEyelidLower": "EyelidLower01",
+    "MiiPartsGlass": "GlassNothing",
+    "MiiPartsNose": "NoseNothing",
+    "MiiPartsMouth": "Mouth030",
+    "MiiPartsBeard": "BeardNothing",
+    "MiiPartsBeardShort": "BeardShortNothing",
+    "MiiPartsMustache": "MustacheNothing",
+    "MiiPartsWrinkleUpper": "WrinkleUpperNothing",
+    "MiiPartsWrinkleLower": "WrinkleLowerNothing",
+    "MiiPartsMakeUpper": "MakeUpper01",
+    "MiiPartsMakeLower": "MakeLower01",
+    "MiiPartsMole": "MoleNothing",
+    "MiiPartsHairAll": "-",
+    "MiiPartsHairBack": "HairBack000",
+    "MiiPartsHairFront": "HairFront044",
+    "MiiPartsHairParts": "HairParts016",
+    "system_report_tag": 2175206328
+}
+
+00:44:38.179 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 237027 bytes, profiled functions: 55193).
+00:45:08.145 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:45:08.146 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:45:08.148 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:45:08.155 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:45:08.156 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:45:08.169 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:45:08.190 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 256934 bytes, profiled functions: 59545).
+00:45:08.205 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:45:08.234 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:45:13.212 |I| {Common} ServiceAm .ctor: Applet 'SoftwareKeyboard' created.
+00:45:13.212 |S| {Common} ServiceAm PresetLibraryAppletGpuTimeSliceZero: Stubbed. 
+00:45:13.215 |S| {Common} ServiceAm Unknown90: Stubbed. 
+00:45:13.226 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseChangedStringV2
+00:45:13.227 |S| {Common} ServiceAm OnBackgroundInteractiveData: Inline keyboard request UseMovedCursorV2
+00:45:13.245 |W| {Vi:m} ServiceVi GetIndirectLayerImageMap: Applet did not draw on indirect layer handle 1
+00:45:38.191 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 257256 bytes, profiled functions: 59613).
+00:46:06.924 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_general 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "CountMii": 1,
+    "CountRoommateMii": 0,
+    "TroubleResolve": 0,
+    "AccidentResolve": 0,
+    "FocusLeadingToMii": 0,
+    "FocusLeadingToMiiByPickup": 0,
+    "PresentFood": 0,
+    "PresentCloth": 0,
+    "FriendCount": 0,
+    "OnesideLove": 0,
+    "OnesideLoveEachOther": 0,
+    "Lover": 0,
+    "Fight": 0,
+    "MiiEventOnFollowingMiiCount": 0,
+    "MiiEventOnFocusLeadingMiiCount": 0,
+    "MiiEventOnFocusLeadingObjectCount": 0,
+    "PickUpToMiiCount": 0,
+    "PickUpToObjectCount": 0,
+    "FriendSuccessCount": 0,
+    "FriendFailureCount": 0,
+    "ConfessionSuccess": 0,
+    "ConfessionFailure": 0,
+    "LiveTogetherSuccessCount": 0,
+    "LiveTogetherFailureCount": 0,
+    "OuterHouseChangeCount": 0,
+    "InnerRoomChangeCount": 0,
+    "InnerRoomPrivateRoomChangeCount": 0,
+    "InnerRoomLivingRoomChangeCount": 0,
+    "Money": 0,
+    "TotalPaidMoney": 0,
+    "TotalPaidMoneyFood": 0,
+    "TotalPaidMoneyCloth": 0,
+    "TotalPaidMoneyBuilding": 0,
+    "TotalPaidMoneyInterior": 0,
+    "FountainLevel": 0,
+    "FountainComeTrueCount": 0,
+    "PlayerBelongsGoods": 0,
+    "PlayerBelongsPresetGoods": 0,
+    "PlayerBelongsUgcGoods": 0,
+    "EmotionBallCurrent": 0,
+    "EmotionBallFountain": 0,
+    "EmotionBallAllSum": 0,
+    "MapUnlockLevel": 1,
+    "MapActorOnGridRate": 0.13722222,
+    "HouseCountOneRoom": 1,
+    "HouseCountDollHouse": 0,
+    "ShopPaidMoneyBuildingMapObje": 0,
+    "ShopPaidMoneyBuildingFacility": 0,
+    "ShopPaidMoneyBuildingUgcObje": 0,
+    "AddUgcItemCount": 0,
+    "AddUgcTextCount": 0,
+    "FacilityNumRestaurant": 0,
+    "FacilityNumFerrisWheel": 0,
+    "FacilityNumBuildingShop": 0,
+    "FacilityNumClothShop": 0,
+    "FacilityNumInteriorShop": 0,
+    "FacilityNumItemShop": 0,
+    "FacilityNumMarket": 0,
+    "FacilityNumPawnShop": 0,
+    "FacilityNumSupermarket": 0,
+    "FacilityNumAtelier": 0,
+    "FacilityNumPhotoStudio": 0,
+    "FacilityNumTower": 0,
+    "IsUnlockRestaurant": False,
+    "IsUnlockFerrisWheel": False,
+    "IsUnlockBuildingShop": False,
+    "IsUnlockClothShop": False,
+    "IsUnlockInteriorShop": False,
+    "IsUnlockItemShop": False,
+    "IsUnlockMarket": False,
+    "IsUnlockPawnShop": False,
+    "IsUnlockSupermarket": False,
+    "IsUnlockAtelier": False,
+    "IsUnlockPhotoStudio": False,
+    "IsUnlockTower": False,
+    "DonationAmount": 2200,
+    "DonationAmountFromIsland": 0,
+    "DonationAmountFromMii": 2200,
+    "IsSamePlayerNameRegionLanguage": True,
+    "PlayerNamePresetLabel": "",
+    "OptionIsCameraReverseRotateY": False,
+    "OptionIsEnableChildbirth": True,
+    "OptionVolumeBgm": 10,
+    "OptionVolumeSe": 10,
+    "OptionVolumeVoice": 10,
+    "IsViewedSequenceImportTrialSaveData": False,
+    "IsSuccessImportTrialSaveData": False,
+    "system_report_tag": 2175206328
+}
+
+00:46:06.928 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_stat_trouble 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "StatArray": [ {
+        "TroubleId": 4222708681,
+        "TroubleCategoryId": 341916152,
+        "TroubleResolveKey": "Generate"
+    } ],
+    "StatFrame": 4862,
+    "system_report_tag": 2175206328
+}
+
+00:46:06.933 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_stat_miiai 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "StatArraySingleAction": [ {
+        "EventType": 0,
+        "StringId": 423940065,
+        "TotalExectionSec": 67.03333,
+        "SuspendCount": 0,
+        "ResumeCount": 0,
+        "IsPhaseModuleDataExist": False,
+        "PhaseModulePhaseTotalEnterCount": -1,
+        "PhaseModuleCoreActTotalEnterCount": -1,
+        "PhaseModuleCoreActTotalExecutingSec": -1,
+        "Results": {
+            "TypeCode": 0,
+            "Value": "0x0000000100200000"
+        },
+        "Exceptions": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "AinStringId": 3012519610,
+        "IsGroupActionNextAI": False,
+        "NextAI": -1
+    }, {
+        "EventType": 2,
+        "StringId": 2364892478,
+        "TotalExectionSec": 0.2,
+        "SuspendCount": 1,
+        "ResumeCount": 0,
+        "IsPhaseModuleDataExist": True,
+        "PhaseModulePhaseTotalEnterCount": 1,
+        "PhaseModuleCoreActTotalEnterCount": 1,
+        "PhaseModuleCoreActTotalExecutingSec": 0.2,
+        "Results": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "Exceptions": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "AinStringId": 519125591,
+        "IsGroupActionNextAI": False,
+        "NextAI": 2826524194
+    }, {
+        "EventType": 1,
+        "StringId": 2364892478,
+        "TotalExectionSec": 0.2,
+        "SuspendCount": 1,
+        "ResumeCount": 0,
+        "IsPhaseModuleDataExist": True,
+        "PhaseModulePhaseTotalEnterCount": 1,
+        "PhaseModuleCoreActTotalEnterCount": 1,
+        "PhaseModuleCoreActTotalExecutingSec": 0.2,
+        "Results": {
+            "TypeCode": 0,
+            "Value": "0x0000000001000000"
+        },
+        "Exceptions": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000000"
+        },
+        "AinStringId": 519125591,
+        "IsGroupActionNextAI": False,
+        "NextAI": -1
+    } ],
+    "StatFrame": 4140,
+    "system_report_tag": 2175206328
+}
+
+00:46:06.948 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_stat_miiparts 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "StatArray": [ {
+        "CreateIdHash": 2302177617,
+        "HasFacePaint": True,
+        "IsFacePaintFront": False,
+        "Faceline": "Faceline12",
+        "Ear": "Ear00",
+        "Eye": "Eye001",
+        "Eyebrow": "Eyebrow27",
+        "Highlight": "Highlight06",
+        "EyelashUpper": "EyelashUpper02",
+        "EyelashLower": "EyelashLower00",
+        "EyelidUpper": "EyelidUpper01",
+        "EyelidLower": "EyelidLower01",
+        "Glass": "GlassNothing",
+        "Nose": "NoseNothing",
+        "Mouth": "Mouth030",
+        "Beard": "BeardNothing",
+        "BeardShort": "BeardShortNothing",
+        "Mustache": "MustacheNothing",
+        "WrinkleUpper": "WrinkleUpperNothing",
+        "WrinkleLower": "WrinkleLowerNothing",
+        "MakeUpper": "MakeUpper01",
+        "MakeLower": "MakeLower01",
+        "Mole": "MoleNothing",
+        "HairAll": "-",
+        "HairBack": "HairBack000",
+        "HairFront": "HairFront044",
+        "HairParts": "HairParts016"
+    } ],
+    "StatFrame": 163359,
+    "system_report_tag": 2175206328
+}
+
+00:46:06.950 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_island_mii 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "CountMii": 1,
+    "CountFacePaint": 1,
+    "CountAdult": 1,
+    "CountChild": 0,
+    "CountChildUseAdultSpray": 0,
+    "CountAdultUseChildSpray": 0,
+    "CountGenderMale": 0,
+    "CountGenderFemale": 1,
+    "CountGenderThird": 0,
+    "CountGenderLoveGenderMaleToMale": 0,
+    "CountGenderLoveGenderMaleToFemale": 0,
+    "CountGenderLoveGenderMaleToThird": 0,
+    "CountGenderLoveGenderFemaleToMale": 1,
+    "CountGenderLoveGenderFemaleToFemale": 1,
+    "CountGenderLoveGenderFemaleToThird": 0,
+    "CountGenderLoveGenderThirdToMale": 0,
+    "CountGenderLoveGenderThirdToFemale": 0,
+    "CountGenderLoveGenderThirdToThird": 0,
+    "CountBloodRelation": 0,
+    "MiiInfo": [ {
+        "SatisfyLevel": 1,
+        "BirthdayYear": -1,
+        "Character": 14,
+        "VoicePreset": -1,
+        "VoiceIntonation": 1
+    } ],
+    "system_report_tag": 2175206328
+}
+
+00:46:06.965 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_island_relation 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB6"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A76"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "CountMii": 1,
+    "RelationOther": 0,
+    "RelationKnow": 0,
+    "RelationKnowOneSideLove": 0,
+    "RelationFriend": 0,
+    "RelationFriendOneSideLove": 0,
+    "RelationFight": 0,
+    "RelationFriendOneSideLoveFight": 0,
+    "RelationLover": 0,
+    "RelationLoverFight": 0,
+    "RelationCouple": 0,
+    "RelationParentChild": 0,
+    "RelationBrotherSister": 0,
+    "RelationGrandParentChild": 0,
+    "RelationRelative": 0,
+    "RelationExFriend": 0,
+    "RelationExLover": 0,
+    "RelationExCouple": 0,
+    "LiveTogether1": 1,
+    "LiveTogether2": 0,
+    "LiveTogether3": 0,
+    "LiveTogether4": 0,
+    "LiveTogether5": 0,
+    "LiveTogether6": 0,
+    "LiveTogether7": 0,
+    "LiveTogether8": 0,
+    "system_report_tag": 2175206328
+}
+
+00:46:06.989 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_island_map 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB7"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A77"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "MapUnlockLevel": 1,
+    "CountMii": 1,
+    "ActorOnGroundGridNum": 247,
+    "NoActorOnGroundGridNum": 807,
+    "FacilityRestaurant": 0,
+    "FacilityFerrisWheel": 0,
+    "FacilityBuildingShop": 0,
+    "FacilityClothShop": 0,
+    "FacilityInteriorShop": 0,
+    "FacilityItemShop": 0,
+    "FacilityMarket": 0,
+    "FacilityPawnShop": 0,
+    "FacilitySupermarket": 0,
+    "FacilityAtelier": 0,
+    "FacilityPhotoStudio": 0,
+    "FacilityTower": 0,
+    "FacilitySum": 0,
+    "SystemCape": 4,
+    "SystemSeaside": 14,
+    "SystemSeaside_2x1": 6,
+    "SystemVacantLand_2x2_High": 24,
+    "SystemVacantLand_2x2_Low": 6,
+    "SystemVacantLand_3x3_High": 14,
+    "SystemVacantLand_3x3_Low": 3,
+    "SystemVacantLand_5x5_High": 10,
+    "SystemVacantLand_5x5_Low": 0,
+    "HousePresetOneRoom": 1,
+    "HousePresetDollHouse": 0,
+    "HouseUgcOneRoom": 0,
+    "HouseUgcDollHouse": 0,
+    "MapObjePreset": 156,
+    "MapObjeStep": 2,
+    "MapObjeUgc": 0,
+    "MapObjeColorVariationGroup": 5,
+    "FloorPreset": 1054,
+    "FloorUgc": 0,
+    "FloorGroundHigh": 883,
+    "FloorGroundLow": 171,
+    "FloorRoad": 0,
+    "FloorUnlockedWater": 734,
+    "DonationAmountFromMii": 2200,
+    "DonationAmountFromIsland": 0,
+    "FloorNum": [ {
+        "Floor": 284683861,
+        "Num": 0
+    }, {
+        "Floor": 304774435,
+        "Num": 0
+    }, {
+        "Floor": 532232093,
+        "Num": 0
+    }, {
+        "Floor": 731612546,
+        "Num": 0
+    }, {
+        "Floor": 787615831,
+        "Num": 0
+    }, {
+        "Floor": 831063256,
+        "Num": 0
+    }, {
+        "Floor": 961076275,
+        "Num": 0
+    }, {
+        "Floor": 1207314365,
+        "Num": 0
+    }, {
+        "Floor": 1420721816,
+        "Num": 0
+    }, {
+        "Floor": 1580578399,
+        "Num": 0
+    }, {
+        "Floor": 1582494942,
+        "Num": 0
+    }, {
+        "Floor": 1660486803,
+        "Num": 0
+    }, {
+        "Floor": 2258159799,
+        "Num": 0
+    }, {
+        "Floor": 2321083261,
+        "Num": 0
+    }, {
+        "Floor": 2335832274,
+        "Num": 0
+    }, {
+        "Floor": 2447352298,
+        "Num": 0
+    }, {
+        "Floor": 2453470167,
+        "Num": 0
+    }, {
+        "Floor": 2576994675,
+        "Num": 29
+    }, {
+        "Floor": 2706712395,
+        "Num": 0
+    }, {
+        "Floor": 2725462509,
+        "Num": 444
+    }, {
+        "Floor": 2726419252,
+        "Num": 0
+    }, {
+        "Floor": 2755827102,
+        "Num": 0
+    }, {
+        "Floor": 2762987606,
+        "Num": 0
+    }, {
+        "Floor": 2946872747,
+        "Num": 0
+    }, {
+        "Floor": 2954489849,
+        "Num": 0
+    }, {
+        "Floor": 3067570786,
+        "Num": 171
+    }, {
+        "Floor": 3329899628,
+        "Num": 0
+    }, {
+        "Floor": 3390169690,
+        "Num": 0
+    }, {
+        "Floor": 3481521951,
+        "Num": 0
+    }, {
+        "Floor": 3518201673,
+        "Num": 0
+    }, {
+        "Floor": 3525010870,
+        "Num": 0
+    }, {
+        "Floor": 3622167776,
+        "Num": 0
+    }, {
+        "Floor": 3730278020,
+        "Num": 0
+    }, {
+        "Floor": 3913757319,
+        "Num": 0
+    }, {
+        "Floor": 3944822072,
+        "Num": 0
+    }, {
+        "Floor": 4283098762,
+        "Num": 410
+    } ],
+    "ObjeNum": [ {
+        "Obje": 170521686,
+        "Num": 1
+    }, {
+        "Obje": 229258922,
+        "Num": 1
+    }, {
+        "Obje": 644151249,
+        "Num": 20
+    }, {
+        "Obje": 1222763025,
+        "Num": 9
+    }, {
+        "Obje": 1648333700,
+        "Num": 1
+    }, {
+        "Obje": 1777368773,
+        "Num": 6
+    }, {
+        "Obje": 2008429533,
+        "Num": 114
+    }, {
+        "Obje": 2253612093,
+        "Num": 1
+    }, {
+        "Obje": 4070299352,
+        "Num": 2
+    }, {
+        "Obje": 4110075409,
+        "Num": 1
+    } ],
+    "system_report_tag": 2175206328
+}
+
+00:46:07.024 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_ugcitem 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB7"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A77"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "IsEditorProMode": True,
+    "EmissionSum": 0,
+    "NightOnlySum": 0,
+    "EmissionPattern": [ 0, 0, 0, 0, 0, 0 ],
+    "FoodSum": 0,
+    "GoodsSum": 0,
+    "ClothSum": 0,
+    "MapObjeSum": 0,
+    "FloorSum": 0,
+    "InteriorSum": 0,
+    "ExteriorSum": 0,
+    "UgcTextSum": 0,
+    "FoodAttrTaste": [ 0, 0, 0, 0, 0, 0, 0 ],
+    "FoodAttrType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "FoodTemperature": [ 0, 0, 0 ],
+    "FoodQuantity": [ 0, 0, 0 ],
+    "GoodsType": [ 0, 0, 0, 0, 0, 0, 0 ],
+    "GoodsBookType": [ 0, 0, 0 ],
+    "GoodsDVDSound": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "GoodsGameSound": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "GoodsCDSound": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "GoodsPetBehavior": [ 0, 0, 0, 0, 0 ],
+    "GoodsPetDirection": [ 0, 0 ],
+    "GoodsPetVoiceType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "GoodsPetVoiceEffectType": [ 0, 0, 0, 0, 0, 0 ],
+    "GoodsOtherEffect": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "ClothType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "ClothGenreType": [ 0, 0, 0, 0, 0, 0 ],
+    "ClothSeasonType": [ 0, 0, 0, 0, 0 ],
+    "ClothGender": [ 0, 0, 0 ],
+    "MapObjeType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "MapObjeMaterialType": [ 0, 0, 0 ],
+    "MapObjeSmellType": [ 0, 0, 0, 0, 0, 0, 0 ],
+    "MapObjeLookType": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "MapObjeTouchType": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "FloorMaterialType": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "FloorCostType": [ 0, 0 ],
+    "InteriorMaterialType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "InteriorImpressionType": [ 0, 0, 0, 0, 0, 0 ],
+    "ExteriorType": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "ExteriorMaterialType": [ 0, 0, 0 ],
+    "ExteriorImpressionType": [ 0, 0, 0, 0, 0, 0 ],
+    "UgcTextGenre": [ 0, 0, 0, 0, 0, 0 ],
+    "UgcTextAttribute": [ 0, 0, 0 ],
+    "UgcTextGrammar": [ 0, 0, 0, 0 ],
+    "UgcTextRegionLanguage": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "system_report_tag": 2175206328
+}
+
+00:46:07.040 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_islandinfodetail 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB7"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A77"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "MiiSum": 1,
+    "MaleNum": 0,
+    "FemaleNum": 1,
+    "ThirdNum": 0,
+    "AgeAverage": 18,
+    "HappyNum": 1,
+    "IslandType": 2,
+    "MiiLevelUpCount": 0,
+    "TroubleResolveCount": 0,
+    "FountainRank": 0,
+    "FountainWishCount": 0,
+    "AreaUsedNum": 5,
+    "IslandObjeCount": 5,
+    "FriendCount": 0,
+    "LoverCount": 0,
+    "MarriageCount": 0,
+    "ChildrenCount": 0,
+    "system_report_tag": 2175206328
+}
+
+00:46:07.329 |I| HLE.OsThread.22 ServicePrepo ProcessPlayReport: 
+PlayReport log:
+ Kind: Normal
+ Pid: 109
+ ApplicationVersion: 0
+ UserId: 00000000000000010000000000000000
+ Room: game_playlog_encyclopedia 
+ Report: {
+    "Common": {
+        "RomVersion": "1.0.0",
+        "SessionId": "b813e675-eb25-4c8a-a3e0-d052df1afad0",
+        "SaveDataVersion": 3,
+        "SaveDataUniqueHash": {
+            "TypeCode": 0,
+            "Value": "0x3050FE5D79F766E5"
+        },
+        "OperationMode": 1,
+        "PerformanceMode": 1,
+        "RegionLanguage": 1,
+        "LastRegionLanguage": 1,
+        "IsPenalty": False,
+        "BootNum": 1,
+        "BootTimeSec": {
+            "TypeCode": 0,
+            "Value": "0x0000000069E403D2"
+        },
+        "MiiNum": 1,
+        "FountainLevel": 0,
+        "IsSaveData": True,
+        "PlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000AB7"
+        },
+        "InputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000A77"
+        },
+        "NoInputPlayTime": {
+            "TypeCode": 0,
+            "Value": "0x0000000000000040"
+        }
+    },
+    "NumFood": 0,
+    "IsCompleteFood": False,
+    "NumCoordinateGroup": 0,
+    "NumCoordinateAll": 0,
+    "IsCompleteCoordinate": False,
+    "CompleteNumCoordinateGroup": 0,
+    "NumClothGroup": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "NumClothAll": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "IsCompleteClothType": [ False, False, False, False, False, False, False, False ],
+    "CompleteNumClothGroup": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "NumGoodsTreasure": 0,
+    "IsCompleteGoodsTreasure": False,
+    "NumGoodsLevelUp": 5,
+    "IsCompleteGoodsLevelUp": False,
+    "NumInteriorGroup": 0,
+    "NumInteriorAll": 0,
+    "IsCompleteInterior": False,
+    "CompleteNumInteriorGroup": 0,
+    "NumObjeGroup": 0,
+    "NumObjeAll": 0,
+    "IsCompleteObje": False,
+    "CompleteNumObjeGroup": 0,
+    "NumHabit": 28,
+    "IsCompleteHabit": False,
+    "NumFloor": 7,
+    "IsCompleteFloor": False,
+    "IsUnlockSectorFood": False,
+    "IsUnlockSectorLevelUpGoods": False,
+    "IsUnlockSectorHabit": False,
+    "IsUnlockSectorTreasure": False,
+    "IsUnlockSectorCloth": False,
+    "IsUnlockSectorInterior": False,
+    "IsUnlockSectorObject": False,
+    "IsUnlockSectorGround": False,
+    "system_report_tag": 2175206328
+}
+
+00:46:08.199 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 267654 bytes, profiled functions: 61927).
+00:46:38.191 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 268488 bytes, profiled functions: 62081).
+00:47:08.198 |I| Ptc.DiskWriter Ptc Save: Saved Profiling Info (size: 268500 bytes, profiled functions: 62082).
+00:47:37.052 |W| <SdkSystemThread> KernelSvc : WaitSynchronization(handleIndex: 0xFFFFFFFF) = TerminationRequested
+00:47:37.052 |W| <MainThread> KernelSvc : ArbitrateLock() = TerminationRequested
+00:47:37.052 |W| <Presentation Thread> KernelSvc : SendSyncRequest() = TerminationRequested
+00:47:37.052 |W| <PathFindingSub2> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <PathFindingSub1> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <Prepare Thread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <VoiceSynthesis2> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <PathFindingMain> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <VoiceSynthesis1> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.052 |W| <VoiceSynthesis0> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <LowPriorityJobExecuter0> KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:47:37.053 |W| <SaveDataMgr> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <AppJobThreadPool0> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <Debug> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <LowPriorityJobExecuter2> KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:47:37.053 |W| <Texture Upsize Thread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <LowPriorityJobExecuter1> KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:47:37.053 |W| <AppJobThreadPool2> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <AppJobThreadPool1> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <Resource Control> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ARes Loading 1> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <phive::DepWorker0> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <Resource Memory> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ARes Loading 0> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ParallelDecompThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ParallelDecompThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <gmd::SaveDataMgr> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <UpdateTextureCacheThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <phive::DepWorker2> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <PlayReporter> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <AudioFrameworkThread> KernelSvc : WaitSynchronization(handleIndex: 0xFFFFFFFF) = TerminationRequested
+00:47:37.053 |W| <Scene Prepare Thread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ice::net::StateMachineThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <VibrationThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <aglTextureDataMgr::Compaction> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <aglTextureDataMgr::Replace> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <phive::DepWorker1> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <rmbl::VibrationThread> KernelSvc : WaitProcessWideKeyAtomic() = TerminationRequested
+00:47:37.053 |W| <AudioUserTaskThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <aal::LowPrioWorkerThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <Save Album Thread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.053 |W| <ice::net::SchedulerThread> KernelSvc : WaitForAddress() = TerminationRequested
+00:47:37.062 |I| HLE.OsThread.11 AudioRenderer Stop: Stopping renderer id 0
+00:47:37.062 |I| HLE.OsThread.11 AudioRenderer Stop: Stopped renderer id 0
+00:47:37.063 |E| {Vi:m} SurfaceFlinger DequeueBuffer: No available buffer slots
+00:47:37.063 |I| HLE.OsThread.11 AudioRenderer ReleaseSessionId: Unregistered renderer (0)
+00:47:37.065 |E| {Vi:m} SurfaceFlinger OnTransact: Error returned by transaction DequeueBuffer: Busy
+00:47:37.068 |I| AudioProcessor.Worker AudioRenderer Work: Stopping audio processor
+00:47:37.091 |I| HLE.OsThread.11 AudioRenderer StopLocked: Stopped audio renderer
+00:47:37.106 |W| GUI.WindowThread ServiceNv Close: Closing channel
+00:47:37.809 |N| GUI.RenderThread Application ReloadConfig: Loading configuration from: C:\Users\[redacted]\AppData\Roaming\Ryujinx\Config.json
